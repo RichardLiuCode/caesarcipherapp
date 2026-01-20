@@ -54,3 +54,10 @@ body {
     text-align: center;
     color: rgb(66, 66, 66);
 }
+
+.exampleImage {
+    width: 500px;
+    height: max-content;
+    pointer-events: none;
+    user-select: none;
+}
