@@ -5,11 +5,29 @@
     <link rel="icon" href="../icon.png">
     <link rel="apple-touch-icon" href="../icon.png">
     <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/js-caesarcipher@1.1.5/script.js"></script>
     <script defer src="script.js"></script>
+    <title>Caesar Cipher - Crack ciphered text</title>
 </head>
 
 <body>
-
+    <div class="topBar">
+        <button onclick="window.location.href='/index.html'">Home</button>
+        <button onclick="window.location.href='/cipher'">Cipher</button>
+        <button onclick="window.location.href='/decipher'">Decipher</button>
+    </div>
+    <h1 class="title">Caesar Cipher</h1>
+    <div class="main">
+        <p class="subtitle">Crack ciphered text</p>
+        <textarea id="input" placeholder="Ciphered Text"></textarea>
+        <br>
+        <div class="form">
+            <button id="crack">Crack</button>
+        </div>
+        <div id="display">
+            <ul id="displayList"></ul>
+        </div>
+    </div>
 </body>
 
 </html>

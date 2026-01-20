@@ -11,7 +11,7 @@ body {
 .title {
     font-family: monospace;
     font-size: 50px;
-    margin-top: 5px;
+    margin-top: 35px;
     margin-bottom: 10px;
     text-align: center;
     color: rgb(66, 66, 66);
@@ -129,3 +129,31 @@ body {
     outline: none;
 }
 
+.topBar {
+    width: 100vw;
+    height: 30px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background-color: rgb(207, 224, 247);
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.topBar button {
+    width: 70px;
+    height: 20px;
+    margin-left: 5px;
+    font-family: arial;
+    cursor: pointer;
+    border-radius: 10px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: gray;
+    background-color: white;
+}
+
+.topBar button:hover {
+    background-color: rgb(233, 229, 229);
+}
