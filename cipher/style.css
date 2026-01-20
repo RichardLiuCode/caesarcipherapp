@@ -63,6 +63,7 @@ body {
     left: 20px;
     height: 30px;
     display: flex;
+    gap: 20px;
     justify-content: left;
     align-items: center;
 }
@@ -85,5 +86,46 @@ body {
 }
 
 #cipher {
+    width: 100px;
     height: 114%;
+    background-color: rgb(2, 212, 145);
+    border-style: solid;
+    border-radius: 0px;
+    border-width: 1px;
+    border-color: gray;
+    font-size: 15px;
+    cursor: pointer;
+    color: rgb(1, 90, 16);
 }
+
+#cipher:hover {
+    background-color: rgb(3, 230, 158);
+}
+
+#cipher:active {
+    background-color: rgb(34, 216, 158);
+    color: rgb(2, 143, 25);
+}
+
+#display {
+    resize: none;
+    position: absolute;
+    top: 325px;
+    left: 20px;
+    width: 450px;
+    height: 200px;
+    font-size: 16px;
+    font-family: arial;
+    color: black;
+    background-color: white;
+    border-style: solid;
+    border-radius: 0px;
+    border-width: 1px;
+    border-color: gray;
+}
+
+#display:focus,
+#display:hover {
+    outline: none;
+}
+
