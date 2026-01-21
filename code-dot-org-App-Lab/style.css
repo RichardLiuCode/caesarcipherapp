@@ -52,6 +52,7 @@ body {
     margin-left: calc((100vw / 2) - 200px);
     width: 400px;
     height: 620px;
-    background: none;
+    background-color: #5c6971;
     border: none;
+    border-radius: 10px;
 }
