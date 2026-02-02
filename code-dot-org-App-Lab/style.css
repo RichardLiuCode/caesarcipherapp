@@ -48,17 +48,17 @@ body {
 }
 
 .codeDotOrgArea {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     background-color: rgb(223, 236, 248);
-    width: min-content;
+    position: relative;
+    width: 960px;
     border-radius: 10px;
     margin: 0 auto;
     padding-right: 30px;
 }
 
 .codeDotOrgFrameWrapper {
+    margin-left: 0px;
+    margin-top: 0px;
     position: relative;
     width: 400px;
     height: 620px;
@@ -132,6 +132,11 @@ body {
 
 .codeArea {
     display: revert;
+    position: absolute;
+    height: 510px;
+    right: 0px;
+    top: 28px;
+    right: 30px;
 }
 
 .codeArea P {
