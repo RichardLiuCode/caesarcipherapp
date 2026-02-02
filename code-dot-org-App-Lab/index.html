@@ -6,6 +6,9 @@
     <link rel="apple-touch-icon" href="../icon.png">
     <link rel="stylesheet" href="style.css">
     <title>Caesar Cipher - Poject on code.org App lab</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.43.3/ace.js"
+        integrity="sha512-T2otaV2NuxAJAOCoj8ijyy+eAAadZlpvdLmakrIGVFbBkthgIFqLTXd+T8Z+S+kf4V7Ib5+6f6r4D4IdS9Ey4A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 </head>
 
 <body>
@@ -14,9 +17,24 @@
     </div>
     <h1 class="title">Caesar Cipher code.org App Lab</h1>
     <div class="main">
-        <iframe id="codeDotRrgIFrame"
-            src="https://studio.code.org/projects/applab/19fd3b3d-a700-4856-806b-dac4b34632cc/embed"></iframe>
+        <div class="codeDotOrgArea">
+            <div class="codeDotOrgFrameWrapper">
+                <div class="codeDotOrgFrameCover1"></div>
+                <div class="codeDotOrgFrameCover2"></div>
+                <div class="codeDotOrgFrameCover3"></div>
+                <div class="codeDotOrgFrameCover4"></div>
+                <div class="codeDotOrgFrameCover5"></div>
+                <iframe id="codeDotRrgIFrame"
+                    src="https://studio.code.org/projects/applab/19fd3b3d-a700-4856-806b-dac4b34632cc/embed"></iframe>
+            </div>
+            <div class="codeArea">
+                <p>Source code:</p>
+                <div id="sourceCodeDisplay"></div>
+            </div>
+
+        </div>
     </div>
+    <script src="script.js"></script>
 </body>
 
 </html>
